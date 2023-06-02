@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 200px;
+    width: 400px;
+    background: rgb(10, 92, 112);
+    margin: 5rem auto;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point{
+   background: transparent;
+   color: white;
+    margin: 12px;
+    border: 1px solid white;
+    padding: 6px 13px;
+    border-radius:  50% ;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.funny{
+    color: rgb(10, 92, 112);
+    background: #fff;
+}
